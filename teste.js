@@ -107,3 +107,13 @@ function printsPrimeNumbers(limit){
     //console.log(premiers);
     return alert(premiers); //return premiers;
 }
+
+/**
+ * I did not understand this excercise well. If possible, you can give me details to get back to it.
+ * @param speed
+ * @returns {string}
+ */
+function speedOfDrivers(speed){
+    if (speed < 80) return "Ok";
+
+}
