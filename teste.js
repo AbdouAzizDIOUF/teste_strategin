@@ -41,3 +41,21 @@ function showNumbers(limit){
     console.log(result);
     return alert(result);
 }
+
+/**
+ * The sum of the numbers multiple of 3 and 5
+ *
+ * @param limit
+ */
+function sumMultiple3And5(limit){
+    let sum = 0;
+
+    for (let i = 1; i <= limit; i++){
+        if ((i % 3 === 0) || (i % 5 === 0)){
+            console.log(i);
+            sum+=i;
+        }
+    }
+    //return sum;
+    return alert (sum);
+}
