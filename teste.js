@@ -80,3 +80,30 @@ function show_stars(rows){
     }
     return alert("Impossible !!!");
 }
+
+/**
+ * display the list of prime numbers between 1 and the variable {limit}
+ *
+ * @param limit
+ */
+function printsPrimeNumbers(limit){
+    let i = 2;
+    let k = 2;
+    let premiers = [];// contains prime numbers
+    let max = limit;
+    let ok = true;
+    while(i <= max) {// test each number
+        ok = true;// reset ok to true
+        k = 2;// reset k to 2
+        while(k < i && ok) {// test if i is divisible by k
+            if(i % k === 0)// if i divided by k is integer
+                ok = false;// i is not first
+            k ++;// Increment k
+        }
+        if(ok)// if i is prime ...
+            premiers.push(i);// we add i to the table
+        i ++;
+    }
+    //console.log(premiers);
+    return alert(premiers); //return premiers;
+}
