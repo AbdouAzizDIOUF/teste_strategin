@@ -59,3 +59,24 @@ function sumMultiple3And5(limit){
     //return sum;
     return alert (sum);
 }
+
+
+/**
+ * right triangle following the {rows} parameter
+ *
+ * @param rows
+ */
+function show_stars(rows){
+
+    if (rows>0){
+        let triangle = "*\n";
+        for (let i = 2; i <= rows; i++) {
+            for (let j = 1; j <= i; j++) {
+                triangle += "* ";
+            }
+            triangle += "\n";
+        }
+        return alert(triangle);
+    }
+    return alert("Impossible !!!");
+}
