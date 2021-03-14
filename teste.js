@@ -24,3 +24,20 @@ function fozz_bezz(number){
     alert(number);
     //return number;
 }
+
+/**
+ * Display number with parity label
+ *
+ * @param limit
+ */
+function showNumbers(limit){
+    const label = ["EVEN", "ODD"];
+    let result = [];
+    for (let i=0; i <= limit; i++){
+        if (i % 2 === 0)  result.push(i + ' ' + label[0]);
+        else  result.push(i + ' ' + label[1]);
+    }
+
+    console.log(result);
+    return alert(result);
+}
