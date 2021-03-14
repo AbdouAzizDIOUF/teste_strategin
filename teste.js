@@ -6,7 +6,7 @@
  * @returns {*}
  */
 function max2number(number1, number2){
-    alert ((number1 > number2) ? number1 : number2);
+    return alert ((number1 > number2) ? number1 : number2);
     //return (number1 > number2) ? number1 : number2
 }
 
@@ -21,7 +21,7 @@ function fozz_bezz(number){
     if (number % 3 === 0) alert("<<Fozz>>"); //return "<<Fozz>>"
     if (number % 5 === 0) alert("<<Bezz>>");  //return "<<Bezz>>";
 
-    alert(number);
+    return alert(number);
     //return number;
 }
 
