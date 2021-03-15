@@ -17,9 +17,9 @@ function max2number(number1, number2){
  * @returns {string|*}
  */
 function fozz_bezz(number){
-    if ((number % 5 === 0) && (number % 3 === 0)) alert("<<FozzBezz>>"); //return "<<FozzBezz>>"
-    if (number % 3 === 0) alert("<<Fozz>>"); //return "<<Fozz>>"
-    if (number % 5 === 0) alert("<<Bezz>>");  //return "<<Bezz>>";
+    if ((number % 5 === 0) && (number % 3 === 0)) return alert("<<FozzBezz>>"); //return "<<FozzBezz>>"
+    if (number % 3 === 0) return alert("<<Fozz>>"); //return "<<Fozz>>"
+    if (number % 5 === 0) return alert("<<Bezz>>");  //return "<<Bezz>>";
 
     return alert(number);
     //return number;
