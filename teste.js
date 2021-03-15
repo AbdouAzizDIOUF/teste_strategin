@@ -87,8 +87,8 @@ function show_stars(rows){
  * @param limit
  */
 function printsPrimeNumbers(limit){
-    let i = 2;
-    let k = 2;
+    let i = 1;
+    let k = 1;
     let premiers = [];// contains prime numbers
     let max = limit;
     let ok = true;
